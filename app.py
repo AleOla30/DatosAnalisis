@@ -4,8 +4,6 @@ from PIL import Image
 
 
 st.title('Análisis de datos de Sensores en Mi Ciudad')
-image = Image.open('grafana2.jpg')
-st.image(image)
 
 uploaded_file = st.file_uploader('Choose a file')
 
